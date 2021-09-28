@@ -1,0 +1,25 @@
+@import'variables';
+
+*{
+    margin:0;
+    padding:0;
+}
+body {
+    overflow: hidden;
+    font-family: $font;
+}
+.container {
+    width: 85%;
+    margin: auto;
+}
+.text-center {
+    text-align: center;
+}
+.row {
+    display: flex;
+    width: 100%;
+}
+.left-col,.right-col {
+    flex: 1;
+    width: 50%;
+}
